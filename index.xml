@@ -1,45 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Mindbadger Reascripts" commit="2b16544384d24c1232737de9ca03ae2e019981c3">
-  <category name="Example">
-    <reapack name="cfillion_Hello world.lua" type="script" desc="Hello world">
-      <metadata>
-        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
-{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
-\widowctrl\hyphauto
-
-{\pard \ql \f0 \sa180 \li0 \fi0 This is an example of a package file. It installs itself as a ReaScript that does nothing but show "Hello World!" in REAPER's scripting console.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Packages may also include additional files specified using the @provides tag.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 This text is the documentation shown when using ReaPack's "About this package" feature. {\field{\*\fldinst{HYPERLINK "https://commonmark.org/"}}{\fldrslt{\ul
-Markdown
-}}}
- {\i formatting} is supported.\par}
-}
-]]></description>
-      </metadata>
-      <version name="1.0" author="cfillion" time="2026-02-15T15:37:23Z">
-        <source main="main">https://github.com/mindbadger/mindbadger-reascripts/raw/28d5cb2037383b81eea50a63994bedf8deb52be3/Example/cfillion_Hello%20world.lua</source>
+<index version="1" name="Mindbadger Reascripts" commit="58a3e39ba95bd0f35846aa1f39aa4cb2574295e1">
+  <category name="fx-lister">
+    <reapack name="mindbadger-fx-lister-file-functions.lua" type="script" desc="FX Lister file functions">
+      <version name="1.0" author="mindbadger">
       </version>
     </reapack>
-  </category>
-  <category name="fx-lister">
-    <reapack name="mindbadger-fx-lister.lua" type="script" desc="The main entry file for the fx-lister">
+    <reapack name="mindbadger-fx-lister-filter-plugins.lua" type="script" desc="FX Lister filter functions">
+      <version name="1.0" author="mindbadger">
+      </version>
+    </reapack>
+    <reapack name="mindbadger-fx-lister-gui-edit-modal.lua" type="script" desc="FX Lister Edit Modal GUI">
+      <version name="1.0" author="mindbadger">
+      </version>
+    </reapack>
+    <reapack name="mindbadger-fx-lister-gui.lua" type="script" desc="FX Lister Main GUI">
+      <version name="1.0" author="mindbadger">
+      </version>
+    </reapack>
+    <reapack name="mindbadger-fx-lister-parse-plugin-list.lua" type="script" desc="FX Lister plugin list parser">
+      <version name="1.0" author="mindbadger">
+      </version>
+    </reapack>
+    <reapack name="mindbadger-fx-lister-read-fx-map.lua" type="script" desc="FX Lister read FX from Reaper">
+      <version name="1.0" author="mindbadger">
+      </version>
+    </reapack>
+    <reapack name="mindbadger-fx-lister-rxi-json.lua" type="script" desc="JSON file handler provided by RXI">
+      <version name="1.0" author="mindbadger">
+      </version>
+    </reapack>
+    <reapack name="mindbadger-fx-lister-track-functions.lua" type="script" desc="FX Lister track functions">
+      <version name="1.0" author="mindbadger">
+      </version>
+    </reapack>
+    <reapack name="mindbadger-fx-lister.lua" type="script" desc="Main FX Lister script">
       <version name="1.0" author="mindbadger">
       </version>
     </reapack>
   </category>
-  <metadata>
-    <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
-{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
-\widowctrl\hyphauto
-
-{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 ReaScripts by themindbadger\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 This repository contains the following scripts:\par}
-{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab {\field{\*\fldinst{HYPERLINK "fx-lister/README.md"}}{\fldrslt{\ul
-{\b fx-lister}
-}}}
- : A UI tool for finding FX that match your needs while mixing by quickly filtering on metadata that you define\sa180\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 The URL to import to ReaPack is https://github.com/mindbadger/mindbadger-reascripts/blob/master/index.xml\par}
-}
-]]></description>
-  </metadata>
 </index>
