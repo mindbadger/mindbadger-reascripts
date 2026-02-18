@@ -1,3 +1,8 @@
+-- @description Functions to perform the plugin filtering required by the fx-lister
+-- @author Mindbadger
+-- @version 1.0
+-- @noindex
+
 function filterPlugins(plugins, filters)
     for _, plugin in pairs(plugins) do
         if plugin.name ~= nil and plugin.name ~= '' then

@@ -1,3 +1,8 @@
+-- @description The fx-lister edit plugin modal window
+-- @author Mindbadger
+-- @version 1.0
+-- @noindex
+
 local lv
 
 local function pluginHasTag(plugin, tag)

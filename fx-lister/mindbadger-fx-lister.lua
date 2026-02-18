@@ -1,3 +1,7 @@
+-- @description The main entry file for the fx-lister
+-- @author Mindbadger
+-- @version 1.0
+
 -- Initialise Global Variables
 ScriptVersion = "0.1"
 ScriptName = 'FX Lister'
