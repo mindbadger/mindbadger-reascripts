@@ -1,41 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Mindbadger Reascripts" commit="58a3e39ba95bd0f35846aa1f39aa4cb2574295e1">
+<index version="1" name="Mindbadger Reascripts" commit="c6243475d78efb020f9d4fca3b20865421225448">
   <category name="fx-lister">
-    <reapack name="mindbadger-fx-lister-file-functions.lua" type="script" desc="FX Lister file functions">
-      <version name="1.0" author="mindbadger">
-      </version>
-    </reapack>
-    <reapack name="mindbadger-fx-lister-filter-plugins.lua" type="script" desc="FX Lister filter functions">
-      <version name="1.0" author="mindbadger">
-      </version>
-    </reapack>
-    <reapack name="mindbadger-fx-lister-gui-edit-modal.lua" type="script" desc="FX Lister Edit Modal GUI">
-      <version name="1.0" author="mindbadger">
-      </version>
-    </reapack>
-    <reapack name="mindbadger-fx-lister-gui.lua" type="script" desc="FX Lister Main GUI">
-      <version name="1.0" author="mindbadger">
-      </version>
-    </reapack>
-    <reapack name="mindbadger-fx-lister-parse-plugin-list.lua" type="script" desc="FX Lister plugin list parser">
-      <version name="1.0" author="mindbadger">
-      </version>
-    </reapack>
-    <reapack name="mindbadger-fx-lister-read-fx-map.lua" type="script" desc="FX Lister read FX from Reaper">
-      <version name="1.0" author="mindbadger">
-      </version>
-    </reapack>
-    <reapack name="mindbadger-fx-lister-rxi-json.lua" type="script" desc="JSON file handler provided by RXI">
-      <version name="1.0" author="mindbadger">
-      </version>
-    </reapack>
-    <reapack name="mindbadger-fx-lister-track-functions.lua" type="script" desc="FX Lister track functions">
-      <version name="1.0" author="mindbadger">
-      </version>
-    </reapack>
-    <reapack name="mindbadger-fx-lister.lua" type="script" desc="Main FX Lister script">
+    <reapack name="mindbadger-fx-lister.lua" type="script" desc="The main entry file for the fx-lister">
       <version name="1.0" author="mindbadger">
       </version>
     </reapack>
   </category>
+  <metadata>
+    <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 ReaScripts by themindbadger\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 This repository contains the following scripts:\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab {\field{\*\fldinst{HYPERLINK "fx-lister/README.md"}}{\fldrslt{\ul
+{\b fx-lister}
+}}}
+ : A UI tool for finding FX that match your needs while mixing by quickly filtering on metadata that you define\sa180\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 The URL to import to ReaPack is https://github.com/mindbadger/mindbadger-reascripts/blob/master/index.xml\par}
+}
+]]></description>
+  </metadata>
 </index>
