@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Mindbadger Reascripts" commit="c6243475d78efb020f9d4fca3b20865421225448">
+<index version="1" name="Mindbadger Reascripts" commit="f361172697072e9e1eaa1d5673bc84947d428510">
   <category name="fx-lister">
     <reapack name="mindbadger-fx-lister.lua" type="script" desc="The main entry file for the fx-lister">
       <version name="1.0" author="mindbadger">
@@ -17,7 +17,7 @@
 {\b fx-lister}
 }}}
  : A UI tool for finding FX that match your needs while mixing by quickly filtering on metadata that you define\sa180\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 The URL to import to ReaPack is https://github.com/mindbadger/mindbadger-reascripts/blob/master/index.xml\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 The URL to import to ReaPack is https://raw.githubusercontent.com/mindbadger/mindbadger-reascripts/refs/heads/master/index.xml\par}
 }
 ]]></description>
   </metadata>
