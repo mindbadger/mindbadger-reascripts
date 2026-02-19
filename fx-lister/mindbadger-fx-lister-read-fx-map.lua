@@ -1,5 +1,3 @@
--- @description The functions to parse the plugin details from the details provided in Reaper
--- @author Mindbadger
 -- @noindex
 
 local bracketedStringsToIgnore = {

@@ -1,5 +1,3 @@
--- @description The fx-lister edit plugin modal window
--- @author Mindbadger
 -- @noindex
 
 local lv

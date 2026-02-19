@@ -1,6 +1,6 @@
 -- @description The main entry file for the fx-lister
 -- @author Mindbadger
--- @version 1.0
+-- @version 1.1
 -- @provides
 --    [nomain] mindbadger-fx-lister-*.lua
 

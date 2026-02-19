@@ -1,5 +1,3 @@
--- @description The functions to support reaper track manipulation
--- @author Mindbadger
 -- @noindex
 
 function AddPluginToSelectedTrack(pluginName, originalName)
