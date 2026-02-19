@@ -1,6 +1,8 @@
 -- @description The main entry file for the fx-lister
 -- @author Mindbadger
 -- @version 1.0
+-- @provides
+--    [nomain] mindbadger-fx-lister-*.lua
 
 -- Initialise Global Variables
 ScriptVersion = "0.1"
