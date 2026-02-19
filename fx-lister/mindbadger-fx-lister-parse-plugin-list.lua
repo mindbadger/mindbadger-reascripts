@@ -1,6 +1,5 @@
 -- @description The functions to parse the plugin details from the plugin list
 -- @author Mindbadger
--- @version 1.0
 -- @noindex
 
 function GetTagsFromPlugins(plugins)

@@ -1,6 +1,5 @@
 -- @description The main fx-lister window
 -- @author Mindbadger
--- @version 1.0
 -- @noindex
 
 require('mindbadger-fx-lister-filter-plugins')

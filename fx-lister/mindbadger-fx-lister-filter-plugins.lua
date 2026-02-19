@@ -1,6 +1,5 @@
 -- @description Functions to perform the plugin filtering required by the fx-lister
 -- @author Mindbadger
--- @version 1.0
 -- @noindex
 
 function filterPlugins(plugins, filters)

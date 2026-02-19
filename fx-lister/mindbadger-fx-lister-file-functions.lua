@@ -1,6 +1,5 @@
 -- @description Functions to support the file read and write operations required by the fx-lister
 -- @author Mindbadger
--- @version 1.0
 -- @noindex
 
 require('mindbadger-fx-lister-read-fx-map')
