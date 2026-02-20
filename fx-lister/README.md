@@ -1,7 +1,7 @@
 
 # fx-lister
 
-[An image showing the default view of the fx-lister](./main-window.jpg)
+![An image showing the default view of the fx-lister](./main-window.jpg)
 
 This tool is a customised FX plugin picker that is designed to allow you to quickly find either a specific plugin or type of plugin you require. This is done by also allowing plugin metadata to be created and then used as part of the filtering process when you are searching.
 For example, you can add tags to describe a plugin's purpose, e.g. 'compressor', 'delay', etc and then you can filter on these tags while serching.
@@ -32,20 +32,20 @@ The filters are:
 - **Only Favourites**: When ticked, the list will only display plugins you have marked as your favourites. Ticked by default. NOTE: This will override other filters below, i.e. if you have Only Favourites ticket and then you also tick the Unused filter, then nothing is likely to change because your unused plugins are unlikely to be your favourites. If you wish to view unused or removed plugins, untick the Only Faviourites option.
 - **Auth.** dropdown: You can select a specific plugin author and this will only display plugins from that author in the list.
 
-[An image showing the view with an Author filter applied](./filter-on-author.jpg)
+![An image showing the view with an Author filter applied](./filter-on-author.jpg)
 
 - **Filter Tags**: When ticked, it brings the list of tags displayed below into action. It will only display plugins that match any of the ticked tags in that list.
 
-[An image showing the view with specific tags applied](./filter-on-tags.jpg)
+![An image showing the view with specific tags applied](./filter-on-tags.jpg)
 
 - **New**: When ticked, it will display any plugins that are new. Ticked by default so you can see if new plugins appear (and remember to add metadata to them)
 - **Unused**: When ticked, it will include any matching plugins marked as unused in the results. Unticked by default to ensure unused plugins don't appear in the results.
 
-[An image showing the view with unused plugins displayed](./incude-unused.jpg)
+![An image showing the view with unused plugins displayed](./incude-unused.jpg)
 
 - **Removed**: When ticked, it will include any matching plugins marked as removed in the results. Unticked by default to ensure removed plugins don't appear in the results.
 
-[An image showing the view with removed and demo plugins displayed](./incude-removed.jpg)
+![An image showing the view with removed and demo plugins displayed](./incude-removed.jpg)
 
 The plugins in the list provide information about metadata as follows:
 - When the name is displayed in white, it is the original name loaded from Reaper. If it is displayed in yellow, then you have provided your own name. If it is displayed in grey, then it indicates the plugin is marked as removed or is a demo product.
@@ -64,7 +64,7 @@ The intention is that plugins marked as new should have metadata added to them a
 
 ### Set the metadata flags
 
-[An image showing the edit metadata popup window](./edit-metadata-modal.jpg)
+![An image showing the edit metadata popup window](./edit-metadata-modal.jpg)
 
 Firstly, there are a number of checkboxes that you can set as follows:
 - **Favourite**: For me, this is the most useful one: You can mark your most used plugins as favourite so that they will be displayed by default when you open the lister.
