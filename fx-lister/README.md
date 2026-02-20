@@ -18,7 +18,8 @@ All of the installed FX plugins are read by the script and are then saved into a
 
 **IMPORTANT!: As you add metadata to your pluings, it all lives in the fx-metadata.json file. If you spend a lot of time, as I have, adding this data to make plugins easier to find, then you don't want to lose this file. I highly recommend backing-up this file on a regular basis**
 
-When you first use the script window, it will appear that there are no plugins in the list, because the "Only Favourites" checkbox is ticked: At this point you haven't marked any plugins as favourite, so to view the installed plugins, untick the only favourites box.
+> [!WARNING]
+> When you first use the script window, it will appear that there are no plugins in the list, because the "Only Favourites" checkbox is ticked - don't panic :) ... At this point you haven't marked any plugins as favourite, so to view the installed plugins, untick the "Only Favourites" filter.
 
 To add one of the displayed plugins to the selected track(s), click the "+" button beside it.
 
