@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Mindbadger Reascripts" commit="821ccd1a54395ef50f3fe97091768ce18c7a7772">
+<index version="1" name="Mindbadger Reascripts" commit="e447ecc1784d90065c8cb27182e2ecba31de890b">
   <category name="fx-lister">
-    <reapack name="mindbadger-fx-lister.lua" type="script" desc="The main entry file for the fx-lister">
+    <reapack name="mindbadger-fx-lister.lua" type="script" desc="fx-lister window by TheMindbadger">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 The main entry script to open the fx-lister. This tool allows you to define metadata to describe your installed plugins and then be able to use this to quickly search for the plugins you need quickly by filtering on this metadata. IMPORTANT: After adding metadata, make sure you back-up the \\AppData\\Roaming\\REAPER\\fx-metadata.json file\par}
+}
+]]></description>
+      </metadata>
       <version name="1.0" author="mindbadger">
       </version>
       <version name="1.1" author="Mindbadger" time="2026-02-19T21:14:35Z">
@@ -15,6 +24,18 @@
         <source file="mindbadger-fx-lister-rxi-json.lua">https://github.com/mindbadger/mindbadger-reascripts/raw/821ccd1a54395ef50f3fe97091768ce18c7a7772/fx-lister/mindbadger-fx-lister-rxi-json.lua</source>
         <source file="mindbadger-fx-lister-track-functions.lua">https://github.com/mindbadger/mindbadger-reascripts/raw/821ccd1a54395ef50f3fe97091768ce18c7a7772/fx-lister/mindbadger-fx-lister-track-functions.lua</source>
       </version>
+      <version name="1.2" author="Mindbadger" time="2026-02-20T10:51:56Z">
+        <changelog><![CDATA[20 Feb 2026 - v 1.2 - improved the documentation]]></changelog>
+        <source main="main">https://github.com/mindbadger/mindbadger-reascripts/raw/e447ecc1784d90065c8cb27182e2ecba31de890b/fx-lister/mindbadger-fx-lister.lua</source>
+        <source file="mindbadger-fx-lister-file-functions.lua">https://github.com/mindbadger/mindbadger-reascripts/raw/e447ecc1784d90065c8cb27182e2ecba31de890b/fx-lister/mindbadger-fx-lister-file-functions.lua</source>
+        <source file="mindbadger-fx-lister-filter-plugins.lua">https://github.com/mindbadger/mindbadger-reascripts/raw/e447ecc1784d90065c8cb27182e2ecba31de890b/fx-lister/mindbadger-fx-lister-filter-plugins.lua</source>
+        <source file="mindbadger-fx-lister-gui-edit-modal.lua">https://github.com/mindbadger/mindbadger-reascripts/raw/e447ecc1784d90065c8cb27182e2ecba31de890b/fx-lister/mindbadger-fx-lister-gui-edit-modal.lua</source>
+        <source file="mindbadger-fx-lister-gui.lua">https://github.com/mindbadger/mindbadger-reascripts/raw/e447ecc1784d90065c8cb27182e2ecba31de890b/fx-lister/mindbadger-fx-lister-gui.lua</source>
+        <source file="mindbadger-fx-lister-parse-plugin-list.lua">https://github.com/mindbadger/mindbadger-reascripts/raw/e447ecc1784d90065c8cb27182e2ecba31de890b/fx-lister/mindbadger-fx-lister-parse-plugin-list.lua</source>
+        <source file="mindbadger-fx-lister-read-fx-map.lua">https://github.com/mindbadger/mindbadger-reascripts/raw/e447ecc1784d90065c8cb27182e2ecba31de890b/fx-lister/mindbadger-fx-lister-read-fx-map.lua</source>
+        <source file="mindbadger-fx-lister-rxi-json.lua">https://github.com/mindbadger/mindbadger-reascripts/raw/e447ecc1784d90065c8cb27182e2ecba31de890b/fx-lister/mindbadger-fx-lister-rxi-json.lua</source>
+        <source file="mindbadger-fx-lister-track-functions.lua">https://github.com/mindbadger/mindbadger-reascripts/raw/e447ecc1784d90065c8cb27182e2ecba31de890b/fx-lister/mindbadger-fx-lister-track-functions.lua</source>
+      </version>
     </reapack>
   </category>
   <metadata>
@@ -24,11 +45,11 @@
 
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 ReaScripts by themindbadger\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 This repository contains the following scripts:\par}
-{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab {\field{\*\fldinst{HYPERLINK "fx-lister/README.md"}}{\fldrslt{\ul
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab {\field{\*\fldinst{HYPERLINK "https://github.com/mindbadger/mindbadger-reascripts/blob/master/fx-lister/README.md"}}{\fldrslt{\ul
 {\b fx-lister}
 }}}
- : A UI tool for finding FX that match your needs while mixing by quickly filtering on metadata that you define\sa180\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 The URL to import to ReaPack is https://raw.githubusercontent.com/mindbadger/mindbadger-reascripts/refs/heads/master/index.xml\par}
+ : A UI tool for finding FX that match your needs while mixing, by quickly filtering on metadata that you define to describe your installed plugins.\sa180\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 The URL to import to ReaPack is https://raw.githubusercontent.com/mindbadger/mindbadger-reascripts/refs/heads/master/index.xmlgit\par}
 }
 ]]></description>
   </metadata>
