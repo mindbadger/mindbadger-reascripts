@@ -1,8 +1,17 @@
--- @description The main entry file for the fx-lister
+-- @description fx-lister window by TheMindbadger
 -- @author Mindbadger
--- @version 1.1
+-- @version 1.2
+-- @about
+--    The main entry script to open the fx-lister.
+--    This tool allows you to define metadata to describe your installed plugins and then be
+--    able to use this to quickly search for the plugins you need quickly by filtering on this
+--    metadata.
+--    IMPORTANT: After adding metadata, make sure you back-up the
+--               <YourUserHomeDirectory>\AppData\Roaming\REAPER\fx-metadata.json file 
 -- @provides
 --    [nomain] mindbadger-fx-lister-*.lua
+-- @changelog
+--   20 Feb 2026 - v 1.2 - improved the documentation
 
 -- Initialise Global Variables
 ScriptVersion = "0.1"

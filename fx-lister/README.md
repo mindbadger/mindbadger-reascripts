@@ -1,13 +1,14 @@
 
 # fx-lister
 
-This tool is a customised FX plugin picker that is designed to allow you to quickly find either
-a specific plugin or type of plugin you require. This is done by also allowing plugin metadata to
-be created and then used as part of the filtering process when you are searching. For example,
-you can add tags to describe a plugin's purpose, e.g. 'compressor', 'delay', etc and then you can
-filter on these tags while serching.
+[An image showing the default view of the fx-lister](./main-window.jpg)
+
+This tool is a customised FX plugin picker that is designed to allow you to quickly find either a specific plugin or type of plugin you require. This is done by also allowing plugin metadata to be created and then used as part of the filtering process when you are searching.
+For example, you can add tags to describe a plugin's purpose, e.g. 'compressor', 'delay', etc and then you can filter on these tags while serching.
 
 I created this plugin for my own benefit, as I have always found the FX selection built into Reaper clunky and I waste so much time scrolling past plugins I don't ever use. However, I'm sharing here in case anybody finds this alternative way to find plugins useful.
+
+Please note, I developed this script on Windows and have only tested it there, but I hope it will also work OK on MacOS and Linux.
 
 ## Basic use
 I recommend assigning a keyboard shortcut to run the plugin.
@@ -28,12 +29,23 @@ When you open the lister window, your cursor will automatically be in the search
 On the left hand side there is a 'filters bar'. Here you will find options to further refine the list of matching products that are shown in the list to the right of this.
 
 The filters are:
-- **Only Favourites**: When ticked, the list will only display plugins you have marked as your favourites. Ticked by default.
+- **Only Favourites**: When ticked, the list will only display plugins you have marked as your favourites. Ticked by default. NOTE: This will override other filters below, i.e. if you have Only Favourites ticket and then you also tick the Unused filter, then nothing is likely to change because your unused plugins are unlikely to be your favourites. If you wish to view unused or removed plugins, untick the Only Faviourites option.
 - **Auth.** dropdown: You can select a specific plugin author and this will only display plugins from that author in the list.
+
+[An image showing the view with an Author filter applied](./filter-on-author.jpg)
+
 - **Filter Tags**: When ticked, it brings the list of tags displayed below into action. It will only display plugins that match any of the ticked tags in that list.
+
+[An image showing the view with specific tags applied](./filter-on-tags.jpg)
+
 - **New**: When ticked, it will display any plugins that are new. Ticked by default so you can see if new plugins appear (and remember to add metadata to them)
 - **Unused**: When ticked, it will include any matching plugins marked as unused in the results. Unticked by default to ensure unused plugins don't appear in the results.
+
+[An image showing the view with unused plugins displayed](./incude-unused.jpg)
+
 - **Removed**: When ticked, it will include any matching plugins marked as removed in the results. Unticked by default to ensure removed plugins don't appear in the results.
+
+[An image showing the view with removed and demo plugins displayed](./incude-removed.jpg)
 
 The plugins in the list provide information about metadata as follows:
 - When the name is displayed in white, it is the original name loaded from Reaper. If it is displayed in yellow, then you have provided your own name. If it is displayed in grey, then it indicates the plugin is marked as removed or is a demo product.
@@ -51,6 +63,8 @@ After you uncheck the 'Only Favourites' box on loading the window for the first 
 The intention is that plugins marked as new should have metadata added to them and the 'new' flag is removed. To do this, click the ".." button to the right of a new plugin. This will open the edit metadata window...
 
 ### Set the metadata flags
+
+[An image showing the edit metadata popup window](./edit-metadata-modal.jpg)
 
 Firstly, there are a number of checkboxes that you can set as follows:
 - **Favourite**: For me, this is the most useful one: You can mark your most used plugins as favourite so that they will be displayed by default when you open the lister.
@@ -76,14 +90,16 @@ If you remove the name override value, the original plugin name will then be use
 
 ### Set tags to categorise the plugins
 
-When you first run the lister there will be no tags in the list. The idea is that you add tags that you find useful to categorise your plugins. You do this by typing a tag into the "New Tag" edit box at the bottom of the edit window and clicking the "Add" button. The newly added tag will appear in the list ticked. You can add as many tags as you want to each pluin.
+When you first run the lister there will be **no tags in the list**. The idea is that you add tags that **you** find useful to categorise your plugins. You do this by typing a tag into the "New Tag" edit box at the bottom of the edit window and clicking the "Add" button. The newly added tag will appear in the list ticked. You can add as many tags as you want to each pluin.
+
+If no plugins include a specific tag in the list, the tag will not appear in the list when you re-open the window.
 
 ### Suggestion
 In order to get productive as quickly as possible, have a fast skim through the full plugin list, top to bottom, and find only the plugins that you consider your absolute favourites to start with. Just add the 'favourite' flag for each of these in the first pass. This will mean when you open the lister window you will at least see these favourites by default. You can then add more metadata as described above later.
 
 ## Keyboard shortcuts
 
-I have designed this UI to be keyboard navigable (not particularly elegant, but it works).
+I have designed this UI to be keyboard navigable (not particularly elegant, but it works when you get used to it).
 
 - To move between screen elements use Tab to move forward and Shift+Tab to move backwards.
 - To tick a highlighted checkbox or click a highlighted button, use the Enter key or Spacebar.
