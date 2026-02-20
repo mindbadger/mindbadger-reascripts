@@ -49,7 +49,7 @@
 {\b fx-lister}
 }}}
  : A UI tool for finding FX that match your needs while mixing, by quickly filtering on metadata that you define to describe your installed plugins.\sa180\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 The URL to import to ReaPack is https://raw.githubusercontent.com/mindbadger/mindbadger-reascripts/refs/heads/master/index.xmlgit\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 The URL to import to ReaPack is https://raw.githubusercontent.com/mindbadger/mindbadger-reascripts/refs/heads/master/index.xml\par}
 }
 ]]></description>
   </metadata>
