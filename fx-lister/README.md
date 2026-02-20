@@ -41,11 +41,11 @@ The filters are:
 - **New**: When ticked, it will display any plugins that are new. Ticked by default so you can see if new plugins appear (and remember to add metadata to them)
 - **Unused**: When ticked, it will include any matching plugins marked as unused in the results. Unticked by default to ensure unused plugins don't appear in the results.
 
-![An image showing the view with unused plugins displayed](./incude-unused.jpg)
+![An image showing the view with unused plugins displayed](./include-unused.jpg)
 
 - **Removed**: When ticked, it will include any matching plugins marked as removed in the results. Unticked by default to ensure removed plugins don't appear in the results.
 
-![An image showing the view with removed and demo plugins displayed](./incude-removed.jpg)
+![An image showing the view with removed and demo plugins displayed](./include-removed.jpg)
 
 The plugins in the list provide information about metadata as follows:
 - When the name is displayed in white, it is the original name loaded from Reaper. If it is displayed in yellow, then you have provided your own name. If it is displayed in grey, then it indicates the plugin is marked as removed or is a demo product.
