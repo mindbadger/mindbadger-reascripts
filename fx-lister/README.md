@@ -71,7 +71,7 @@ Firstly, there are a number of checkboxes that you can set as follows:
 - **Favourite**: For me, this is the most useful one: You can mark your most used plugins as favourite so that they will be displayed by default when you open the lister.
 - **New**: Once you've assigned other metadata to describe the plugin, then untick this box to indicate the plugin is correctly categorised
 - **Unused**: You may have plugins that you have no intention of using on a day-to-day basis (see below for examples), then you can mark them as unused to get them off of your radar when searching
-- **Demo**: There are times when you demo a plugin, but decide not to purchase it. Or some plugin providers insist on installing all of their plugins, even if you only buy a few. This flag will allow you to mark such plugins as demo, **which treats them as if they had been removed**. Don't tick this until your trial period has expired, otherwise you won't be able to add this plugin from the fx-lister.
+- **Demo**: There are times when you demo a plugin, but decide not to purchase it. Or some plugin providers insist on installing all of their plugins, even if you only buy a few. This flag will allow you to mark such plugins as demo, **which treats them as if they had been removed**. Don't tick this until your trial period has expired, otherwise you won't be able to add this plugin to your tracks from the fx-lister.
 - **Removed**: If you uninstall plugins then when the lister window opens it will detect this and automatically mark the plugin as removed (the metadata is kept in case you re-install it again later). NOTE: If a plugin is removed, but you don't re-scan your plugins from Reaper, it will no know the plugin has been removed. To keep the list of available plugins accurate, peroidically re-scan your plugins.
 
 Some reasons why you might want to make a plugin as 'unused':
@@ -129,3 +129,4 @@ There are a number of .lua scripts provided here, but the entry point is via:
 This is my first attempt at writing Reascripts, so I have relied heavily upon excellent resources provided by **extremraym** and **cfillion**. And to help learn the ReaImGui framework, the videos provided by **daniellumertz** were invaluable. And finally, I have included some code for JSON file handling kindly provided by **rxi**.
 
 Sincere thanks to you all for helping me get this tool written.
+
