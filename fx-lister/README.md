@@ -126,7 +126,8 @@ There are a number of .lua scripts provided here, but the entry point is via:
 
 ## Acknowledgements
 
-This is my first attempt at writing Reascripts, so I have relied heavily upon excellent resources provided by **extremraym** and **cfillion**. And to help learn the ReaImGui framework, the videos provided by **daniellumertz** were invaluable. And finally, I have included some code for JSON file handling kindly provided by **rxi**.
+This is my first attempt at writing Reascripts, so I have relied heavily upon excellent resources provided by **x-raym** and **cfillion**. And to help learn the ReaImGui framework, the videos provided by **daniellumertz** were invaluable. And finally, I have included some code for JSON file handling kindly provided by **rxi**.
 
 Sincere thanks to you all for helping me get this tool written.
+
 
