@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Mindbadger Reascripts" commit="867143f3b4a5fb1d9a59c1ab2aff5a6eca732433">
+<index version="1" name="Mindbadger Reascripts" commit="008db400cad0851e8a8cdfc472e8f35208c0d300">
   <category name="fx-lister">
     <reapack name="mindbadger-fx-lister.lua" type="script" desc="fx-lister window by TheMindbadger">
       <metadata>
@@ -48,6 +48,20 @@
         <source file="mindbadger-fx-lister-read-fx-map.lua">https://github.com/mindbadger/mindbadger-reascripts/raw/867143f3b4a5fb1d9a59c1ab2aff5a6eca732433/fx-lister/mindbadger-fx-lister-read-fx-map.lua</source>
         <source file="mindbadger-fx-lister-rxi-json.lua">https://github.com/mindbadger/mindbadger-reascripts/raw/867143f3b4a5fb1d9a59c1ab2aff5a6eca732433/fx-lister/mindbadger-fx-lister-rxi-json.lua</source>
         <source file="mindbadger-fx-lister-track-functions.lua">https://github.com/mindbadger/mindbadger-reascripts/raw/867143f3b4a5fb1d9a59c1ab2aff5a6eca732433/fx-lister/mindbadger-fx-lister-track-functions.lua</source>
+      </version>
+      <version name="1.3" author="Mindbadger" time="2026-02-22T14:27:55Z">
+        <changelog><![CDATA[20 Feb 2026 - v 1.2 - improved the documentation
+20 Feb 2026 - v 1.2.1 - re-published to fix broken link in README
+22 Feb 2026 - v 1.3 - Fixed search to allow special characters]]></changelog>
+        <source main="main">https://github.com/mindbadger/mindbadger-reascripts/raw/008db400cad0851e8a8cdfc472e8f35208c0d300/fx-lister/mindbadger-fx-lister.lua</source>
+        <source file="mindbadger-fx-lister-file-functions.lua">https://github.com/mindbadger/mindbadger-reascripts/raw/008db400cad0851e8a8cdfc472e8f35208c0d300/fx-lister/mindbadger-fx-lister-file-functions.lua</source>
+        <source file="mindbadger-fx-lister-filter-plugins.lua">https://github.com/mindbadger/mindbadger-reascripts/raw/008db400cad0851e8a8cdfc472e8f35208c0d300/fx-lister/mindbadger-fx-lister-filter-plugins.lua</source>
+        <source file="mindbadger-fx-lister-gui-edit-modal.lua">https://github.com/mindbadger/mindbadger-reascripts/raw/008db400cad0851e8a8cdfc472e8f35208c0d300/fx-lister/mindbadger-fx-lister-gui-edit-modal.lua</source>
+        <source file="mindbadger-fx-lister-gui.lua">https://github.com/mindbadger/mindbadger-reascripts/raw/008db400cad0851e8a8cdfc472e8f35208c0d300/fx-lister/mindbadger-fx-lister-gui.lua</source>
+        <source file="mindbadger-fx-lister-parse-plugin-list.lua">https://github.com/mindbadger/mindbadger-reascripts/raw/008db400cad0851e8a8cdfc472e8f35208c0d300/fx-lister/mindbadger-fx-lister-parse-plugin-list.lua</source>
+        <source file="mindbadger-fx-lister-read-fx-map.lua">https://github.com/mindbadger/mindbadger-reascripts/raw/008db400cad0851e8a8cdfc472e8f35208c0d300/fx-lister/mindbadger-fx-lister-read-fx-map.lua</source>
+        <source file="mindbadger-fx-lister-rxi-json.lua">https://github.com/mindbadger/mindbadger-reascripts/raw/008db400cad0851e8a8cdfc472e8f35208c0d300/fx-lister/mindbadger-fx-lister-rxi-json.lua</source>
+        <source file="mindbadger-fx-lister-track-functions.lua">https://github.com/mindbadger/mindbadger-reascripts/raw/008db400cad0851e8a8cdfc472e8f35208c0d300/fx-lister/mindbadger-fx-lister-track-functions.lua</source>
       </version>
     </reapack>
   </category>
