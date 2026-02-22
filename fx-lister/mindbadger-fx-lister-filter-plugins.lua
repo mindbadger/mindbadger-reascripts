@@ -8,7 +8,7 @@ function filterPlugins(plugins, filters)
             
             if filters.searchTerm ~= nil and filters.searchTerm ~= '' then
                 local searchUpper = string.upper(filters.searchTerm)
-                local index = string.find(nameUpper, searchUpper)
+                local index = string.find(nameUpper, searchUpper, 1, true)
                 match = match and (index ~= nil and index > 0)
             end
 

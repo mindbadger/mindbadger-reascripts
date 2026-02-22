@@ -44,7 +44,7 @@ The filters are:
 
 ![An image showing the view with unused plugins displayed](./include-unused.jpg)
 
-- **Removed**: When ticked, it will include any matching plugins marked as removed in the results (shown with grey text). Unticked by default to ensure removed plugins don't appear in the results. NOTE: This will also include any plugins marked as "Demo" too.
+- **Removed & Demo**: When ticked, it will include any matching plugins marked as Removed or Demo in the results (shown with grey text). Unticked by default to ensure removed/demo plugins don't appear in the results.
 
 ![An image showing the view with removed and demo plugins displayed](./include-removed.jpg)
 

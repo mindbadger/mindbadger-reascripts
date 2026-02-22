@@ -100,7 +100,7 @@ end
 local function renderAndHandleBottomFilterCheckboxes()
   rv, filters.new = ImGui.Checkbox(ctx, 'New',  filters.new);
   rv, filters.showUnused = ImGui.Checkbox(ctx, 'Unused',  filters.showUnused);
-  rv, filters.showRemoved = ImGui.Checkbox(ctx, 'Removed',  filters.showRemoved);
+  rv, filters.showRemoved = ImGui.Checkbox(ctx, 'Removed & Demo',  filters.showRemoved);
 end
 
 local function renderAndHandleTagsFilterTable()

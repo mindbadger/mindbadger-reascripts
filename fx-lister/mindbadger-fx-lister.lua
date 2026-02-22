@@ -1,6 +1,6 @@
 -- @description fx-lister window by TheMindbadger
 -- @author Mindbadger
--- @version 1.2.1
+-- @version 1.3
 -- @about
 --    The main entry script to open the fx-lister.
 --    This tool allows you to define metadata to describe your installed plugins and then be
@@ -13,6 +13,7 @@
 -- @changelog
 --   20 Feb 2026 - v 1.2 - improved the documentation
 --   20 Feb 2026 - v 1.2.1 - re-published to fix broken link in README
+--   22 Feb 2026 - v 1.3 - Fixed search to allow special characters
 
 -- Initialise Global Variables
 ScriptVersion = "0.1"
