@@ -16,7 +16,7 @@ local filters = {
   showUnused = false,
   filterByTags = false,
   filterTags = {},
-  new = true
+  showOnlyNew = true
 }
 
 local rv
@@ -77,7 +77,20 @@ local function renderAndHandleSearchBar()
 end
 
 local function renderAndHandleTopFilterCheckboxes()
+  local prev_show_only_favourites = filters.showOnlyFavourites
+  local prev_show_only_new = filters.showOnlyNew
+
   rv, filters.showOnlyFavourites = ImGui.Checkbox(ctx, 'Only Favourites',  filters.showOnlyFavourites);
+  rv, filters.showOnlyNew = ImGui.Checkbox(ctx, 'Show only New',  filters.showOnlyNew);
+
+  -- ensure the 'show only' flags are mutually exclusive
+  if not prev_show_only_favourites and filters.showOnlyFavourites then
+    filters.showOnlyNew = false
+  elseif not prev_show_only_new and filters.showOnlyNew then
+    filters.showOnlyFavourites = false
+  end
+
+  ImGui.Separator(ctx)
 
   local combo_preview_value = Authors[filters.authorIndex]
   local combo_flags = nil
@@ -98,7 +111,6 @@ local function renderAndHandleTopFilterCheckboxes()
 end
 
 local function renderAndHandleBottomFilterCheckboxes()
-  rv, filters.new = ImGui.Checkbox(ctx, 'New',  filters.new);
   rv, filters.showUnused = ImGui.Checkbox(ctx, 'Unused',  filters.showUnused);
   rv, filters.showRemoved = ImGui.Checkbox(ctx, 'Removed & Demo',  filters.showRemoved);
 end

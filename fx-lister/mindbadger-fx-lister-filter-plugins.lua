@@ -22,12 +22,12 @@ function filterPlugins(plugins, filters)
                 match = match and plugin.favourite
             end
 
-            if not filters.showUnused then
-                match = match and not plugin.unused
+            if filters.showOnlyNew then
+                match = match and plugin.new
             end
 
-            if not filters.new then
-                match = match and not plugin.new
+            if not filters.showUnused then
+                match = match and not plugin.unused
             end
 
             if not filters.showRemoved then
