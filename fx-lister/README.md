@@ -30,7 +30,8 @@ When you open the lister window, your cursor will automatically be in the search
 On the left hand side there is a 'filters bar'. Here you will find options to further refine the list of matching products that are shown in the list to the right of this.
 
 The filters are:
-- **Only Favourites**: When ticked, the list will only display plugins you have marked as your favourites. Ticked by default. NOTE: This will override other filters below, i.e. if you have Only Favourites ticket and then you also tick the Unused filter, then nothing is likely to change because your unused plugins are unlikely to be your favourites. If you wish to view unused or removed plugins, untick the Only Faviourites option.
+- **Only Favourites**: When ticked, the list will only display plugins you have marked as your favourites. Ticked by default. NOTE: This will override other filters below, i.e. if you have Only Favourites ticket and then you also tick the Unused filter, then nothing is likely to change because your unused plugins are unlikely to be your favourites. If you wish to view unused or removed plugins, untick the Only Faviourites option. This option is mutually exclusive to "Only New", so if you tick this option, "Only New" will be unticked.
+- **Only New**: When ticked, the list will only display plugins marked as new (i.e. ones that have been newly installed and have not yet got metadata applied to them). This option is mutually exclusive to "Only Favourites", so if you tick this option, "Only Favourites" will be unticked.
 - **Auth.** dropdown: You can select a specific plugin author and this will only display plugins from that author in the list.
 
 ![An image showing the view with an Author filter applied](./filter-on-author.jpg)
@@ -39,7 +40,6 @@ The filters are:
 
 ![An image showing the view with specific tags applied](./filter-on-tags.jpg)
 
-- **New**: When ticked, it will display any plugins that are new. Ticked by default so you can see if new plugins appear (and remember to add metadata to them)
 - **Unused**: When ticked, it will include any matching plugins marked as unused in the results (shown with a thumbs-down symbol). Unticked by default to ensure unused plugins don't appear in the results.
 
 ![An image showing the view with unused plugins displayed](./include-unused.jpg)
@@ -59,9 +59,11 @@ To make the most out of this script, you need to invest some time to add metadat
 The author of this script has thousands of plugins installed and so this took quite a while to do,
 but it was worth the effort.
 
-After you uncheck the 'Only Favourites' box on loading the window for the first time, the listed plugins will have a stars icon in the column after the name. This indicates the plugins are newly loaded. The metadata file will contain a 'new' flag.
+If you tick the 'Only New' checkbox on loading the window for the first time, the listed plugins will have a stars icon in the column after the name. This indicates the plugins are newly loaded. The metadata file will contain a 'new' flag.
 
 The intention is that plugins marked as new should have metadata added to them and the 'new' flag is removed. To do this, click the ".." button to the right of a new plugin. This will open the edit metadata window...
+
+To ensure the edit window doesn't close unexpectedly, I recommend removing any author and tag filters and also ticking the "Unused" and "Removed" checkboxes while you work. This should mean the window remains open if you mark plugins as unused (see the "Peculiarities of use" section below). Also, only untick the "New" checkbox once you have set all other metadata.
 
 ### Set the metadata flags
 
