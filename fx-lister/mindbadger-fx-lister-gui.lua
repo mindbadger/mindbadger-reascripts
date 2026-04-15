@@ -16,7 +16,7 @@ local filters = {
   showUnused = false,
   filterByTags = false,
   filterTags = {},
-  showOnlyNew = true
+  showOnlyNew = false
 }
 
 local rv
